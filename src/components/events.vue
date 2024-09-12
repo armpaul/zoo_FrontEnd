@@ -38,8 +38,6 @@ import { ref,onMounted } from 'vue';
             console.log(e);
         }
     }
-
-
 </script>
     
     
@@ -50,12 +48,14 @@ import { ref,onMounted } from 'vue';
     #events{
         width: 45%;
         height: 30%;
+        float: left;
+        margin: 1%;
         h3{
             padding: 0.25em;
-            color: $themeColor3;
-            background-color: $themeColor2;
-            
+            color: $themeColor4;
+            background-color: $themeColor2;   
         }
+       
     }   
     
 </style>

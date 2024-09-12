@@ -1,7 +1,17 @@
-$themeColor1:rgb(212, 245, 245);
-$themeColor2:rgb(147, 183, 190);
-$themeColor3:rgb(85, 67, 72);
-$themeColor4:rgb(140, 154, 158);
-$themeColor5:rgb(116, 117, 120);
-
 @import '~bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap');
+
+$themeColor1:rgb(8, 146, 165);
+$themeColor2:rgb(6, 144, 143);
+$themeColor3:rgb(12, 164, 165);
+$themeColor4:rgb(245, 211, 175);
+$themeColor5:rgb(203, 154, 118);
+$themeColor6:rgb(187, 126, 93);
+
+
+body{
+    font-family: "Cactus Classical Serif" !important;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
